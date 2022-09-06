@@ -1,0 +1,5 @@
+import pypdf, requests,html5
+from bs4 import  BeautifulSoup as BS
+
+url = ""
+raw_data=requests.get(url)
